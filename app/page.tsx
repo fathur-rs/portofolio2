@@ -70,45 +70,6 @@ export default function ModernResumePage() {
     }
   };
 
-// Alternative approach - More robust solution:
-  const scrollToSectionRobust = (sectionId: string) => {
-    setIsMenuOpen(false);
-    
-    // Use requestAnimationFrame to ensure DOM updates are complete
-    requestAnimationFrame(() => {
-      const element = document.getElementById(sectionId);
-      
-      if (element) {
-        const navbarHeight = document.querySelector('nav')?.offsetHeight || 80;
-        const elementPosition = element.offsetTop;
-        const offsetPosition = elementPosition - navbarHeight - 20; // Extra padding
-        
-        // Force scroll for mobile devices
-        if ('scrollBehavior' in document.documentElement.style) {
-          window.scrollTo({
-            top: offsetPosition,
-            behavior: 'smooth'
-          });
-        } else {
-          // Fallback for older browsers
-          window.scrollTo(0, offsetPosition);
-        }
-      }
-    });
-  };
-
-// Make sure your sections have proper IDs and are not hidden
-// Example section structure:
-/*
-<section id="about" className="min-h-screen relative z-10">
-  <HeroSection ... />
-</section>
-
-<section id="experience" className="min-h-screen relative z-10">
-  <ExperienceSection ... />
-</section>
-*/
-
   // Update active section on scroll
   useEffect(() => {
     const observerOptions = {

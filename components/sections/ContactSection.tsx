@@ -30,10 +30,10 @@ const ContactSection: React.FC = () => {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-white to-teal-400 bg-clip-text text-transparent">
-            Let's Work Together
+            Let&apos;s Work Together
           </h2>
           <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-            Ready to bring data-driven solutions to your next project? Let's connect and explore opportunities.
+            Ready to bring data-driven solutions to your next project? Let&apos;s connect and explore opportunities.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
