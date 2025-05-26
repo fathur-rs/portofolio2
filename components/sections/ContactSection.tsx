@@ -3,7 +3,7 @@
 import type React from "react"
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button" // Assuming path
-import { Mail } from "lucide-react"
+// import { Mail } from "lucide-react"
 import ParallaxSection from "@/components/shared/ParallaxSection"
 
 const ContactSection: React.FC = () => {
