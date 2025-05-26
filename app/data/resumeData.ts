@@ -12,7 +12,7 @@ export const resumeData = {
     name: "Fathurrahman Syarief",
     title: "Data Scientist / Auditor",
     summary:
-        "💻 Results-driven Data Scientist with expertise in machine learning, advanced statistical analytics, and cloud technologies. Proficient in Python, SQL, and GCP, I excel at crafting data-driven solutions that enhance efficiency, optimize operations, and empower strategic decision-making. Proven track record of delivering measurable impact and value across diverse industries.",
+        "An Auditor at the Ministry of Energy and Mineral Resources Indonesia (KESDM) with deep specialization in the oil and mineral sectors, distinguished by a comprehensive command of data science. I utilize machine learning, advanced statistical analytics, Python, SQL, and GCP to transform traditional audit processes and extract critical intelligence. By harmonizing the analytical precision of auditing with the predictive power of data science, I deliver enhanced operational efficiencies, robust risk management, and empower strategic advancements within the national energy landscape.",
 
     experiences: [
         {
@@ -20,7 +20,7 @@ export const resumeData = {
             title: "Auditor",
             date: "June 2025 – Present",
             points: [
-                "Conducting internal audits related to the oil and mineral sectors.",
+                "Conducting internal audits related to the oil and mineral sectors",
             ],
         },
         {
@@ -28,10 +28,10 @@ export const resumeData = {
             title: "Data Analyst Intern",
             date: "September 2024 – January 2025",
             points: [
-                "Assigned to the Planning, Budgeting, & Performance Management (PPM) Division.",
-                "Automated business processes using Python, reducing a two-week manual workflow to 3 hours (90%-time savings) and ensuring 100% accuracy by eliminating input errors.",
-                "Analyzed BRI branch transaction, then built XGBoost models to predict transaction surges (5% error rate), and improved resource allocation efficiency by 20% for optimal staffing during peak periods.",
-                "Developed a real-time NLP pipeline using Python, Apache Airflow, and Machine Learning to analyze BRI Mobile Banking app (BRImo) reviews. Achieved 97.8% accuracy with a fine-tuned Distilled IndoBERT model, delivering sentiment insights, word clouds, and topic modeling for data-driven decisions.",
+                "Assigned to the Planning, Budgeting, & Performance Management (PPM) Division",
+                "Automated business processes using Python, reducing a two-week manual workflow to 3 hours (90%-time savings) and ensuring 100% accuracy by eliminating input errors",
+                "Analyzed BRI branch transaction, then built XGBoost models to predict transaction surges (5% error rate), and improved resource allocation efficiency by 20% for optimal staffing during peak periods",
+                "Developed a real-time NLP pipeline using Python, Apache Airflow, and Machine Learning to analyze BRI Mobile Banking app (BRImo) reviews. Achieved 97.8% accuracy with a fine-tuned Distilled IndoBERT model, delivering sentiment insights, word clouds, and topic modeling for data-driven decisions",
             ],
         },
         {
@@ -115,36 +115,43 @@ export const resumeData = {
             link: "https://github.com/fathur-rs/trxnslate",
             description:
                 "Developed a system to digitize handwritten Indonesian medical prescriptions using OCR. Leveraged YOLOv10 to detect key elements and TrOCR to convert handwritten text into digital format.",
-            tags: ["Computer Vision", "Large Language Model", "OCR", "Healthcare"],
+            tags: ["Healthcare AI", "OCR", "LLM", "Medical Prescription", "Handwritting Recognition"],
         },
         {
             name: "Tweetoxicity",
             link: "https://github.com/fathur-rs/Tweetoxicity-2.0",
             description:
                 "Web app utilizing 98%-accuracy fine-tuned Distilled IndoBERT to predict sentiment of Twitter/X users based on their recent tweets.",
-            tags: ["Sentiment Analysis", "Web Application", "NLP"],
+            tags: ["Sentiment Classification","Machine Learning", "Web App", "Transformers"],
         },
         {
             name: "BRImoSentiment",
             link: "https://github.com/fathur-rs/BRImoSentiment",
             description:
                 "Real-time sentiment analysis system for monitoring Google Play Store reviews of BRI Mobile Banking application with 97.8% accuracy.",
-            tags: ["Sentiment Analysis", "Real-time Processing", "Banking"],
+            tags: ["Banking", "Sentiment Analysis", "App Review Analysis"],
         },
         {
             name: "nitter-harvest",
             link: "https://github.com/fathur-rs/nitter-harvest",
             description:
                 "Tools to scrape Twitter/X data via Nitter, extracting topics, hashtags, and user tweets without relying on paid APIs.",
-            tags: ["Data Mining"],
+            tags: ["Web Scraping", "Data Mining"],
         },
         {
             name: "Online Retail Store Sales Analysis",
             link: "https://github.com/fathur-rs/online-retail-shop/blob/main/online-shop-sales-analysis-data-analytic.ipynb",
             description:
                 "End-to-end analysis to uncover customer behavior and optimize sales using preprocessing, visualization, market basket, and geographic insights.",
-            tags: ["Data Analysis"],
+            tags: ["Sales", "Data Analysis"],
         },
+        {
+            name: "Klasifikasi Topik Hukum Indonesia",
+            link: "https://github.com/fathur-rs/klasifikasi-topik-hukum-flask-api",
+            description:
+                "API for classifying Indonesian legal questions into one of 13 predefined topics (e.g., Criminal, Family Law) using a fine-tuned IndoBERT model.",
+            tags: ["Legal", "Text Classification", "API", "NLP"],
+        }
     ],
 };
 
