@@ -12,15 +12,15 @@ export const resumeData = {
     name: "Fathurrahman Syarief",
     title: "Data Scientist / Auditor",
     summary:
-        "An Auditor at the Ministry of Energy and Mineral Resources Indonesia (KESDM) with deep specialization in the oil and mineral sectors, distinguished by a comprehensive command of data science. I utilize machine learning, advanced statistical analytics, Python, SQL, and GCP to transform traditional audit processes and extract critical intelligence. By harmonizing the analytical precision of auditing with the predictive power of data science, I deliver enhanced operational efficiencies, robust risk management, and empower strategic advancements within the national energy landscape.",
+        "As an Internal Auditor at the Ministry of Energy and Mineral Resources Indonesia (KESDM), I bring a comprehensive command of data science, specializing in machine learning, automation, and data processing. I leverage these skills to support audit processes and extract critical intelligence within the oil and gas sectors. My focus is on harmonizing the analytical precision of auditing with the predictive power of data science to fortify governance, enhance compliance, strengthen risk management, and ensure unwavering integrity within the national energy landscape.",
 
     experiences: [
         {
             company: "Ministry of Energy and Mineral Resources Indonesia (KESDM)",
-            title: "Auditor",
+            title: "Internal Auditor",
             date: "June 2025 – Present",
             points: [
-                "Conducting internal audits related to the oil and mineral sectors",
+                "Conducting internal audits related to the oil and gas sectors",
             ],
         },
         {
